@@ -14,7 +14,7 @@ if offline == 1:
     response = requests.post('https://api.telegram.org/[token]/sendMessage',
     data={
         'chat_id': '[chat_ID]',
-        'text': '⚠️ PfSenseHydra-Backup Failed!'
+        'text': 'PfSense-Backup Failed!'
     }
 )
     time.sleep(2)
