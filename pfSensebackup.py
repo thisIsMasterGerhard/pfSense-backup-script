@@ -11,9 +11,9 @@ if not r.status_code == 200:
     offline = 1
 
 if offline == 1:
-    response = requests.post('https://api.telegram.org/bot5368143253:AAGw3S9jOozgRH03aJ1GTe3mVAFX050UvOU/sendMessage',
+    response = requests.post('https://api.telegram.org/[token]/sendMessage',
     data={
-        'chat_id': '640198129',
+        'chat_id': '[chat_ID]',
         'text': '⚠️ PfSenseHydra-Backup Failed!'
     }
 )
